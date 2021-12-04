@@ -1,0 +1,34 @@
+{
+    "laptops": [
+      {
+        "name": "Asus Laptops",
+        "seri": "11111",
+        "id": 1
+      },
+      {
+        "name": "Acer Laptops",
+        "seri": "22222",
+        "id": 2
+      },
+      {
+        "name": "Dell Laptops",
+        "seri": "33333",
+        "id": 4
+      },
+      {
+        "name": "Dell Laptops",
+        "seri": "44444",
+        "id": 5
+      },
+      {
+        "name": "HP Laptops",
+        "seri": "55555",
+        "id": 6
+      },
+      {
+        "name": "Lenovo Laptops",
+        "seri": "66666",
+        "id": 7
+      }
+    ]
+  }
