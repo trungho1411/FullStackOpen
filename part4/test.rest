@@ -1,0 +1,32 @@
+GET http://localhost:3003/api/blogs
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRydW5naG8iLCJpZCI6IjYxZDg0YzE5OGRkYWJlY2QwNmU1MzhmYSIsImlhdCI6MTY0MTkyNzQ5NH0.NBxSqQ6QxJLPnxNrcHB5hdsU6ifxpbvLf02NqxeC91E
+
+###
+
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRydW5naG8iLCJpZCI6IjYxZDg0YzE5OGRkYWJlY2QwNmU1MzhmYSIsImlhdCI6MTY0MTkyNzQ5NH0.NBxSqQ6QxJLPnxNrcHB5hdsU6ifxpbvLf02NqxeC91E
+
+{
+    "title" : "abc",
+    "author" : "Trung",
+    "url" : "api.blogs",
+    "likes" : 100
+}
+
+###
+DELETE http://localhost:3003/api/blogs/61ddd3897f701d65f0e0afcd
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRydW5naG8iLCJpZCI6IjYxZDg0YzE5OGRkYWJlY2QwNmU1MzhmYSIsImlhdCI6MTY0MTkyNzQ5NH0.NBxSqQ6QxJLPnxNrcHB5hdsU6ifxpbvLf02NqxeC91E
+
+
+###
+PUT http://localhost:3003/api/blogs/61ddd45f7f701d65f0e0afdd
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRydW5naG8iLCJpZCI6IjYxZDg0YzE5OGRkYWJlY2QwNmU1MzhmYSIsImlhdCI6MTY0MTkyNzQ5NH0.NBxSqQ6QxJLPnxNrcHB5hdsU6ifxpbvLf02NqxeC91E
+
+{
+    "likes" : 500
+}
+###
+GET http://localhost:3003/api/blogs/61ddd45f7f701d65f0e0afdd
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRydW5naG8iLCJpZCI6IjYxZDg0YzE5OGRkYWJlY2QwNmU1MzhmYSIsImlhdCI6MTY0MTkyNzQ5NH0.NBxSqQ6QxJLPnxNrcHB5hdsU6ifxpbvLf02NqxeC91E
