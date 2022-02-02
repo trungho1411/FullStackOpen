@@ -1,0 +1,31 @@
+.success {
+  font-size: 30px;
+  color: green;
+  border: 5px solid green;
+  padding: 5px 30px 5px 5px;
+  margin: 5px;
+  border-radius: 7px;
+  background-color: rgb(212, 202, 202);
+}
+
+.error {
+  font-size: 30px;
+  color: red;
+  border: 5px solid red;
+  padding: 5px 30px 5px 5px;
+  margin: 5px;
+  border-radius: 7px;
+  background-color: rgb(212, 202, 202);
+}
+
+#title {
+  font-style: italic;
+  color: green;
+}
+
+#rm:hover {
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(4, 52, 184);
+  border-style: solid;
+}

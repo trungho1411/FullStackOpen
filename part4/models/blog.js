@@ -32,5 +32,5 @@ blogSchema.set('toJSON', {
     delete returnedObject.__v;
   },
 });
-
+blogSchema.plugin(uniqueValidator);
 module.exports = mongoose.model('Blog', blogSchema);
